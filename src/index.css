@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EDEEED;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App{
+  padding: 0px 20px;
+}
+
+.flex-entregas{
+  display: grid; 
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  grid-template-areas: 
+    ". .";
+}
+
+.titulo{
+  color: #2563eb;
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+}
+
+.ingreso{
+  background-color: rgb(250, 251, 252);
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 8px 6px;
+  height: 36px;
+  border-width: 2px;
+  font-size: 14px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.ingreso:focus{
+  background-color: #fff;
+  border-color: #2563eb;
+}
+
+.enviar{
+  background-color: #2563eb;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 8px 6px;
+  height: 36px;
+  border-width: 2px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: .4px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.enviar:hover{
+  background-color: #003cbe;
+}
+
+.c-table{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.c-table thead th{
+  color: #fff;
+  background-color: #2563eb;
+  font-weight: 400;
+  height: 50px;
+}
+
+.c-table th, .c-table td {
+  text-align: center;
+  border-bottom: 1px solid hsl(210,8%,65%, .30);
+  background-color: #fff;
+  padding: 2px;
+  height: 50px;
+}
+.c-table thead:hover{
+  background-color: tomato;
+}
+
+.buttone{
+  background-color: #fff;
+  border-color: #2563eb;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 8px 6px;
+  height: 36px;
+  border-width: 1px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  color: #2563eb;
+  letter-spacing: .4px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 4px;
+}
+.buttone:hover{
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.w-20{ width: 80px; }
+.p-20{ margin-left: 20px; }
+.mb-30{ margin-bottom: 30px; }
+.top-10{ margin-top: 10px; margin-bottom: 20px;}
+.sub{ margin-bottom: 4px; }
+.mr-5{ margin-right: 5px;}

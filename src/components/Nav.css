@@ -1,0 +1,25 @@
+.header{
+  margin-top: 50px;
+}
+
+.header ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  height: 20px;
+}
+
+.enlace{
+  background-color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.enlace:hover{
+  color: #fff;
+  background-color: #2563eb;
+}
